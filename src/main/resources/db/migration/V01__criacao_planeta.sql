@@ -1,0 +1,8 @@
+CREATE TABLE planeta
+(
+	id INTEGER PRIMARY KEY AUTO_INCREMENT,
+	nome VARCHAR (60) NOT NULL,
+	clima VARCHAR (60) NOT NULL,
+	terreno VARCHAR (60) NOT NULL,
+	aparicoes_filmes INTEGER
+);
