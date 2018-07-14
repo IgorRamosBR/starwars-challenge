@@ -45,7 +45,6 @@ public class StarwarsService {
 				List<String> listaFilmes = objectMapper.readValue(filmes, new TypeReference<List<String>>() {});
 				return listaFilmes.size();
 			}
-			//return filmes.size();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
